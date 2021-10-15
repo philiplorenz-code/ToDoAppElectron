@@ -10,13 +10,24 @@
     <link rel="stylesheet" href="./fontawesome/css/all.css">
   </head>
   <body>
+    <section id = "start">
     <form class = "todo-form">
     <input type="text" class="form-control" id="input-todo">
-<button type="button" class="btn btn-primary" id = "btn-add">
-<i class="fa fa-plus"></i>
-</button>
+    <button type="button" class="btn btn-primary" id = "btn-add">
+      <i class="fa fa-plus"></i>
+    </button>
     </form>
+    <ul id = "list-todo" class=" list-group list-group-flush"></ul>
     <!-- You can also require other files to run in this process -->
-    <script src="./renderer.js"></script>
-  </body>s
+    
+  </section>
+
+  <section id = "page2" hidden>
+    <h1>ToDo ändern</h1><br>
+    <input type="text" class="form-control" id="edit-todo">
+    <button type="button" class="btn btn-primary" id = "btn-abort">Abbrechen</button>
+    <button type="button" class="btn btn-primary" id = "btn-save">Speichern</button>
+  </section>
+  <script src="./renderer.js"></script>
+  </body>
 </html>

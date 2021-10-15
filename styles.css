@@ -1,3 +1,21 @@
 /* styles.css */
 
 /* Add styles here to customize the appearance of your app */
+
+#input-todo {
+    max-width: 30em;
+  }
+.todo-form {
+    display: flex;
+    justify-content: center;
+ }
+
+ .widget-content .widget-content-wrapper {
+  display: flex;
+  flex: 1;
+  position: relative;
+  align-items: center;
+}
+.widget-content .widget-content-right {
+  margin-left: auto
+}
